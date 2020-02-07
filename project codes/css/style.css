@@ -1,0 +1,95 @@
+.header
+{
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: darkgrey;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25pt;
+    font-family: arial;
+    font-weight: 600;
+    color: white;
+}
+
+.text1{
+    position: absolute;
+    margin-top: -0.5pt;
+    margin-left: 210px
+}
+
+.header .p
+{
+    
+}
+.new-launch
+{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    border: 2px solid darkgrey;
+    padding: 10px;
+}
+.phone-list
+{
+    width: 56.6%;
+    height: 700px;
+    margin-left: 9.25%;
+    border: 2px solid darkgrey;
+    padding: 10px;
+    position: absolute;
+    margin-top: 10pt;
+}
+.news
+{
+    width: 21%;
+    height: 700px;
+    border: 2px solid darkgrey;
+    padding: 10px;
+    position: absolute;
+    margin-left: 68.3%;
+    margin-top: 10pt;
+}
+
+    
+.phone-container
+{
+    float: left;
+  width: 28.33%;
+  padding: 5px;
+    margin: 17px;
+}
+.phone-container:hover{
+    background-color: darkgray;
+    
+}
+.phone-name{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-weight: 600;
+    padding: 3pt;
+    text-align: center;
+}
+.main{
+    position: relative;
+}
+
+ 
+@font-face{
+    font-family: "Nexa Light";
+    src: url('/../Nexa Light.otf') format('opentype');
+}
+@font-face{
+    font-family: "Nexa Light";
+    font-weight: bold;
+    src: url('/../Nexa Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: "Nexa Light";
+    font-weight: 200;
+    src: url('/../Nexa Regular.otf') format('opentype');
+}
