@@ -1,0 +1,80 @@
+.header
+{
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: darkgrey;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25pt;
+    font-family: arial;
+    font-weight: 600;
+    color: white;
+}
+
+.text1{
+    position: absolute;
+    margin-top: -0.5pt;
+    margin-left: 210px
+}
+
+.phone-list
+{
+    width: 80%;
+    height: 700px;
+    margin-left: 9.25%;
+    border: 2px solid darkgrey;
+    padding: 10px;
+    position: absolute;
+    margin-top: 10pt;
+}
+
+.phone-image{
+    width: 400px;
+    position: absolute
+}
+.phone-name{
+    font-family: arial;
+    font-weight: 600;
+    font-size: 35px;
+    padding-left: 110px;
+    //position: absolute;
+    margin: 10px;
+}
+
+
+.price-container{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.price-image{
+    height: 100px;
+    width: 200px;
+    position: relative;
+    margin: 20px;
+}
+
+
+
+.main{
+    position: relative;
+}
+
+ 
+@font-face{
+    font-family: "Nexa Light";
+    src: url('/../Nexa Light.otf') format('opentype');
+}
+@font-face{
+    font-family: "Nexa Light";
+    font-weight: bold;
+    src: url('/../Nexa Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: "Nexa Light";
+    font-weight: 200;
+    src: url('/../Nexa Regular.otf') format('opentype');
+}
